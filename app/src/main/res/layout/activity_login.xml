@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.LoginActivity">
+
+    <include
+        android:id="@+id/include_login_header"
+        layout="@layout/include_login_header" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/include_login_header"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/activity_login_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Yora! Log in" />
+
+        <Button
+            android:id="@+id/activity_login_register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Yora! Register" />
+
+        <Button
+            android:id="@+id/activity_login_facebook"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Facebook Login" />
+
+        <Button
+            android:id="@+id/activity_login_google"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Google Login" />
+
+    </LinearLayout>
+</RelativeLayout>
